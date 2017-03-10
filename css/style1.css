@@ -1,0 +1,121 @@
+		#top{
+			background-color: #333;
+		}/*设置背景色*/
+
+		.link{
+			float: right;
+			padding: 1.5em 0.5em 1.5em 0.5em;
+			color: #666;
+		}/*设置连接靠右*/
+
+		.link:hover	{
+			color: #ccc;
+		}/*设置悬停颜色*/
+
+		.link1{
+			padding: 1.5em 0.5em 1.5em 0.5em;
+			color: #666;
+		}
+		.link1:hover{
+			color:#ccc;
+		}
+
+
+		#firstPar{
+			border-top:1px solid #E6E6FA;
+			border-left:1px solid #E6E6FA;
+			border-right: 1px solid #E6E6FA;
+			border-bottom: 3px solid #E6E6FA;
+			margin: 1.5em 1em 2em 1em;
+			padding: 1em 1em 1em 1em;
+			background-color: #fff;
+			text-align: justify;
+		}/*对第一篇文章设置盒模型*/
+
+		#secondPar{
+			border-top:1px solid #E6E6FA;
+			border-left:1px solid #E6E6FA;
+			border-right: 1px solid #E6E6FA;
+			border-bottom: 3px solid #E6E6FA;
+			margin: 1.5em 1em 2em 1em;
+			padding: 1em 1em 1em 1em;
+			background-color: #fff;
+			text-align: justify;
+		}/*对第二段文章设置和模型*/
+
+		#thirdPart{
+			border-top:1px solid #E6E6FA;
+			border-left:1px solid #E6E6FA;
+			border-right: 1px solid #E6E6FA;
+			border-bottom: 3px solid #E6E6FA;
+			margin: 1.5em 1em 1em 1em;
+			padding: 1em 1em 1em 1em;
+			background-color: #fff;
+			text-align: justify;
+		}/*对漂亮的图片部分设置和模型*/
+
+		.muchImage{
+			width: 400px;
+			border: 1px solid #E6E6FA;
+			padding: 1em 0.5em 0.5em 0.5em;
+			margin: 0.5em 0.2em 0.5em 0.1em;	
+		}
+
+		#lastPart{
+			border-top:1px solid #E6E6FA;
+			border-left:1px solid #E6E6FA;
+			border-right: 1px solid #E6E6FA;
+			border-bottom: 3px solid #E6E6FA;
+			margin: 1.5em 1em 2em 1em;
+			padding: 1em 1em 1em 1em;
+			background-color: #fff;
+			text-align: justify;
+		}
+		#table{
+			margin: 1.5em 1em 0em 1em;
+			padding: 1em 1em 1em 1em;
+			text-align: center;
+		}
+
+		#sideBar{
+			border-top:1px solid #E6E6FA;
+			border-left:1px solid #E6E6FA;
+			border-right: 1px solid #E6E6FA;
+			border-bottom: 3px solid #E6E6FA;
+			margin: 1.5em 1em 2em 1em;
+			padding: 1em 1em 1em 1em;
+			background-color: #fff;
+		}
+
+		#littleSquare{
+			background-color: #E6E6FA;
+			margin: 1em 1em 1em 0.1em;
+			padding: 0.5em 0.1em 0.5em 0.1em;
+			width: 0.1em;
+			height: 1em;
+			float: left;
+		}
+
+		#title{
+			margin: 1em 1em 1em 0.1em;
+			padding: 1em 0.1em 0.5em 0.1em;
+		}
+
+		.firstCell{
+			text-align: right;
+			padding-right: 1em;
+			font-size: 80%;
+		}
+
+		#submit{
+			background-color:#2830FF;
+			text-align: center;
+			width: 99%;
+			height: 1.7em;
+			color:#E0E0E0;
+			border-radius: 0.7em;
+		}
+
+		#wholePar{
+			background-color: #F5F5F0;
+		}
