@@ -1,0 +1,46 @@
+#whole{
+	background-color: #eee;
+	overflow: hidden;
+	
+}/*整体布局*/
+
+
+#left{
+	float: left;
+	padding: 20px;
+	border: 1px solid #999;
+	background: white;
+	width: 200px;
+	margin: 20px;
+}/*右边栏布局，应设置为float*/
+
+#team_name{
+	display: inline;
+	position: relative;
+	left: 20px;
+	bottom: 65px;
+}/*标题样式，不过如何让标题在不靠bottom的情况下与图片上侧对齐。这一点不是很明白*/
+
+#right{
+	float: right;
+	padding: 20px;
+	border: 1px solid #999;
+	background-color: white;
+	width: 120px;
+	margin: 20px;
+}/*右栏样式布局，在未对宽进行设置的时候，右栏会呈水平状，设置完以后，会呈竖直状*/
+
+#center{
+	overflow: hidden;
+	height: auto;
+	padding: 20px;
+	border: 1px solid #999;
+	background-color: white;
+	margin: 20px;
+}/*中间栏样式，主要是消除浮动，设置边框，盒模型啥的*/
+
+.image{
+	height: 80px;
+	width: 80px;
+	padding: 10px 20px 10px 20px;
+}/*图片样式，设置长宽高啥的*/
