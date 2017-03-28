@@ -1,0 +1,107 @@
+/* 以下是对top部分的样式设计 */
+#top{
+	background-color: #F0F0F0;
+	height: 80px;
+	overflow:auto;
+}
+
+.link_top{
+	padding: 2.5em 0.5em 1.5em 0.5em;
+	color: #696363;
+	margin: 0px;
+	float: right;
+}
+.link_top:hover{
+	color:#ADADAD;
+}
+
+/* *********************************************************************************************************************/
+/* *********************************************************************************************************************/
+/* 以下是对center部分的设计，包括center中的链接，文字首字母缩进，标题的颜色设计等等共有的细节部分 */
+.text{
+	text-indent: 2em;
+}
+
+.link_center{
+	color: #7b7676;
+ }
+
+ .link_center:hover{
+ 	color: #c3b9b9;
+ }
+
+  .subTitle{
+	color: #272727;
+ }
+/* ************************************************************* */
+/* 以下是对center_left部分的设计 */
+.center{
+	overflow: auto;
+	position: relative;
+}
+
+.center_left{
+	float: left;
+	margin-right: 10px;
+	min-width: 700px;
+}
+
+ .innerCenter_left{
+ 	background-color: #f4f5f5;
+ 	margin: 10px 10px 10px 0;
+ 	padding: 10px 20px 10px 20px;
+ 	width: 70%;
+}
+
+/* center_left中第三部分的设计，其中包含10幅图，2行5列布局，可以采用table或者flex，此处选择的是flex */
+ .image{
+ 	border: 1px #d0cbcb solid;
+ 	width: 120px;
+ 	margin: 5px;
+ 	padding: 5px;
+ }
+.singleLayer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/* ***********************************************************************/
+/* 以下是对center_right部分的设计，即注册表单部分 */
+#littleSquare{
+	height: 20px;
+	background: #c3b9b9;
+	color: #c3b9b9;
+}
+
+.firstCell{
+	text-align: right;
+	padding-right: 1em;
+	font-size: 80%;
+}
+
+#center_right{
+	background: #f4f5f5;
+	margin-left: 10px;
+	margin-right: 10px;
+	position: absolute;
+	top: 100px;
+	left: 73%;
+}
+
+
+
+/* *********************************************************************************************************************/
+/* *********************************************************************************************************************/
+/* 以下是对bottom部分的样式设计 */
+#bottom{
+	font-size:0.5em;
+	text-align: center;
+	background: #F0F0F0;
+	padding: 3px 0;
+	width: 100%
+}
+
+#wholePar{
+	overflow: auto;
+}
