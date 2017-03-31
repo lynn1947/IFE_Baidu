@@ -30,6 +30,8 @@
 	margin: 20px;
 }/*右栏样式布局，在未对宽进行设置的时候，右栏会呈水平状，设置完以后，会呈竖直状*/
 
+
+
 #center{
 	overflow: hidden;
 	height: auto;

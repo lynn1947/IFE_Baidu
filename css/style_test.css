@@ -1,0 +1,19 @@
+.parentNode{
+	height: 100px;
+	/* overflow: auto; */
+	background: red;
+}
+
+.childNode_left{
+	width:70%;
+	height: 40px;
+	float: left;
+	background: blue;
+}
+
+.childNode_right{
+	height: 40px;
+	background: yellow;
+	overflow: auto;
+	margin-top: -10px;
+}
