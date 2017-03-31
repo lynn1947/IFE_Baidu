@@ -1,0 +1,131 @@
+/*整体样式 */
+#whole{
+	width: 980px;
+	height: 1386px;
+	background: #F0F0F0;/*区分作用，完成后删除*/
+}
+
+/* ****************************************************************************** */
+/* 页眉部分设计 */
+#header_container{
+	position: relative;
+	width: 892px;
+	height: 63px;
+
+	border-bottom: 2px solid #938e8c;
+	margin: 0 auto;
+}
+
+#com{
+	width: 110px;
+	height: 63px;
+	background: #d45d5c;
+
+	position: absolute;
+	bottom: 0px;
+}
+
+#text_com{
+	position: absolute;
+	bottom: 0px;
+	margin-bottom: 0px;
+
+	font-size: 12px;
+	color: #ffffff;
+	font-family: SimHei;
+
+}
+
+#date{
+	font-size: 12px;
+	color: #d45d5c;
+	font-family: SimHei;
+
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	margin-bottom: 0px;
+
+}
+
+/* ************************************************************** */
+/* 页脚部分设计 */
+#footer_container{
+	width: 892px;
+	height: 63px;
+
+	bottom: 0px;
+	margin: 0 auto;
+	
+	border-top:2px solid #938e8c; 
+}
+
+#text_footer{
+	text-align: right;
+	margin-top: 0px;
+
+	font-size: 12px;
+	color: #d45d5c;
+	font-family: SimHei;
+}
+
+/* ********************************************************************* */
+/* 中间部分设计 */
+/* 左上图片部分 */
+#middle{
+	width: 892px;
+	height: 1190px;
+	margin: 35px 44px 39px 44px;
+	background: white;/*区分，完成后删除*/
+}
+
+#middle_top_up{
+	width: 892px;
+	height: 301px;
+}
+
+#middle_top_up_left{
+	width: 642px;
+	height: 301px;
+
+	position: relative;
+}
+
+#green_mask{
+	width: 191px;
+	height: 301px;
+	background-color: rgba(66, 141, 89, 0.7);
+
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#red_mask{
+	width: 191px;
+	height: 301px;
+	background-color: rgba(204, 118, 128, 0.7);
+
+	position: absolute;
+	right: 0px;
+	top: 0px;
+
+}
+/* *************** */
+/* 右上文字设计 */
+#middle_top_up_right{
+	width: 200px;
+	height: 301px;
+	float: right;
+}
+
+#text_700{
+	font-size:116px;
+	color: #75b86b;
+	//text-align: center;
+	font-family:"Microsoft YaHei";
+	font-style: italic;
+	//text-decoration: underline;
+}
+
+	
